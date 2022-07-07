@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cioccoblock</title>
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <!-- LOGO VENTANA -->
+            <img src="../images/logo.png" alt="" width="80" height="80" class="d-inline-block align-text-top">
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- SECCIONES NAVBAR -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fw-bold">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./sabores.html">Sabores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <!-- NAVBAR BUSQUEDA -->
+            <nav class="navbar bg-light">
+              <div class="container-fluid">
+                <form class="d-flex" role="Buscar">
+                  <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </nav>
+      
+    </header>
+
+    <main>
+      <!-- INTRO -->
+      <section class="banner">
+      </section>
+      <section class="bg-dark text-white">
+        <div class="container py-4">
+          <h1 class="display-3">Contactanos</h1>
+          <p class="lead mt-4">
+            Llenar campos, hacé tu pedido.
+          </p>
+        </div>
+      </section>
+      <!-- <section>
+        <form class="form">
+          <div class="form__container">
+            <h2 class="form__title">Contactanos</h2>
+            <input type="text" class="form__input" placeholder="Nombre" />
+            <input type="email" class="form__input" placeholder="Email" />
+            <textarea class="form_input form_input--message"placeholder="Mensaje"></textarea>
+            <input type="submit" value="Enviar" class="form__cta" />
+          </div>
+        </form>
+      </section> -->
+      <section class="contenedorform__grid">
+        <div class="contenedorform">
+                   <div class="form_titulo">
+                       <ul>    
+                           <li>Hace tu pedido aquí</li>
+                       </ul>
+                   </div>
+                   <div class="form_subtitulo">
+                       <p>Llenar los siguientes campos...</p>
+                   </div>
+                   <div class="formulario_interno">
+                       <form action="" method="POST" enctype="">
+                       <div>
+                           <label for="nombre">Ingrese su nombre y apellido:</label>
+                           <input type="text" id="nombre" name="nombre" placeholder="Nombre..." class="input-100" />
+                       </div>
+                       <div>
+                           <label for="email">Ingrese email: </label>
+                           <input type="email" id="email" name="email" placeholder="Email..."class="input-100"/>
+                       </div>
+                       <div>
+                           <label for="pass">Ingrese teléfono:</label>
+                           <input type="telefono" id="pass" name="telefono" placeholder="Telefono..."class="input-46-5"/>
+                       </div>
+                       <div>
+                           <label for="pais">Elegir combo a consultar:</label>
+                           <select name="combo" id="combo" class="input-100-color">
+                           <option value="Combo REI">Combo REINA</option>
+                           <option value="Combo Cajonera MAT">Combo Cajonera MAT</option>
+                           <option value="Combo Monedas">Combo Monedas</option>
+                           <option value="Combo Ramo">Combo Ramo</option>
+                           <option value="Arma tu box">Armá tu box</option>
+                           <option value="Tabletas">Tabletas</option>
+                       </div>
+                       <div>
+                           <label for="consulta">Ingrese su mensaje:</label>
+                           <textarea name="consulta" id="consulta" cols="20" rows="5" placeholder="Consulta..."class="input-100-color"></textarea>
+                       </div>
+                       <div>
+                           <input type="checkbox" id="newsletter"/>
+                           <label for="newsletter">Recibir una copia de la consulta</label>
+                           <button type="submit">Enviar</button>
+                           <button type="reset">Limpiar</button>
+                       </div>
+                       </form>
+                   </div>
+           </div>
+        </section>
+     
+  </main>
+
+    <footer class="mt-5 text-dark bg-dark">
+      <div class="container">
+        <div class="row">
+          <!-- text-sm-center text-md-start -->
+          <div class="col-sm-12 col-md-4 p-4">
+            <p>
+              Pedidos con 24hs de anticipación.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-4 p-4">
+            <p>
+              Hacemos envíos a todo el país.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-4 p-4">
+            <h6>Conocenos</h6>
+            <p>
+              Seguinos en nuestras redes sociales.
+            </p>
+
+            <div class="d-flex justify-content-evenly">
+              <a href="https://wa.me/5491166664841" class="text-white fs-2 text-decoration-none">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/cioccoblock/"
+                class="text-white fs-2 text-decoration-none"
+              >
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/cioccoblock/" class="text-white fs-2 text-decoration-none">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </div>
+  </body>
+</html>
